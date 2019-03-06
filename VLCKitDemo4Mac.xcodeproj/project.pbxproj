@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD1B9227222F56EB008C1EA8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDE43ED5222E583E0055562E /* Info.plist */; };
+		DD1B9229222F5723008C1EA8 /* VLCKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = DDE43EDE222E58760055562E /* VLCKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DDE43ECC222E583D0055562E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE43ECB222E583D0055562E /* AppDelegate.m */; };
+		DDE43ECF222E583D0055562E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE43ECE222E583D0055562E /* ViewController.m */; };
+		DDE43ED1222E583E0055562E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE43ED0222E583E0055562E /* Assets.xcassets */; };
+		DDE43ED4222E583E0055562E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE43ED2222E583E0055562E /* Main.storyboard */; };
+		DDE43ED7222E583E0055562E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE43ED6222E583E0055562E /* main.m */; };
+		DDE43EDF222E58770055562E /* VLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE43EDE222E58760055562E /* VLCKit.framework */; };
+		DDE43EE7222E6F420055562E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE43EE6222E6F420055562E /* AppKit.framework */; };
+		DDE43EE9222E6F480055562E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE43EE8222E6F480055562E /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DD1B9228222F5716008C1EA8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DD1B9229222F5723008C1EA8 /* VLCKit.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DDE43EC7222E583D0055562E /* VLCKitDemo4Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VLCKitDemo4Mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE43ECA222E583D0055562E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDE43ECB222E583D0055562E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDE43ECD222E583D0055562E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDE43ECE222E583D0055562E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDE43ED0222E583E0055562E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDE43ED3222E583E0055562E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDE43ED5222E583E0055562E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE43ED6222E583E0055562E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDE43ED8222E583E0055562E /* VLCKitDemo4Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VLCKitDemo4Mac.entitlements; sourceTree = "<group>"; };
+		DDE43EDE222E58760055562E /* VLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VLCKit.framework; sourceTree = "<group>"; };
+		DDE43EE6222E6F420055562E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DDE43EE8222E6F480055562E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDE43EC4222E583D0055562E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE43EE9222E6F480055562E /* Cocoa.framework in Frameworks */,
+				DDE43EE7222E6F420055562E /* AppKit.framework in Frameworks */,
+				DDE43EDF222E58770055562E /* VLCKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDE43EBE222E583D0055562E = {
+			isa = PBXGroup;
+			children = (
+				DDE43EC9222E583D0055562E /* VLCKitDemo4Mac */,
+				DDE43EC8222E583D0055562E /* Products */,
+				DDE43EE5222E6F420055562E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DDE43EC8222E583D0055562E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE43EC7222E583D0055562E /* VLCKitDemo4Mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDE43EC9222E583D0055562E /* VLCKitDemo4Mac */ = {
+			isa = PBXGroup;
+			children = (
+				DDE43EDE222E58760055562E /* VLCKit.framework */,
+				DDE43ECA222E583D0055562E /* AppDelegate.h */,
+				DDE43ECB222E583D0055562E /* AppDelegate.m */,
+				DDE43ECD222E583D0055562E /* ViewController.h */,
+				DDE43ECE222E583D0055562E /* ViewController.m */,
+				DDE43ED0222E583E0055562E /* Assets.xcassets */,
+				DDE43ED2222E583E0055562E /* Main.storyboard */,
+				DDE43ED5222E583E0055562E /* Info.plist */,
+				DDE43ED6222E583E0055562E /* main.m */,
+				DDE43ED8222E583E0055562E /* VLCKitDemo4Mac.entitlements */,
+			);
+			path = VLCKitDemo4Mac;
+			sourceTree = "<group>";
+		};
+		DDE43EE5222E6F420055562E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDE43EE8222E6F480055562E /* Cocoa.framework */,
+				DDE43EE6222E6F420055562E /* AppKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDE43EC6222E583D0055562E /* VLCKitDemo4Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE43EDB222E583E0055562E /* Build configuration list for PBXNativeTarget "VLCKitDemo4Mac" */;
+			buildPhases = (
+				DDE43EC5222E583D0055562E /* Resources */,
+				DDE43EC3222E583D0055562E /* Sources */,
+				DDE43EC4222E583D0055562E /* Frameworks */,
+				DD1B9228222F5716008C1EA8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VLCKitDemo4Mac;
+			productName = VLCKitDemo4Mac;
+			productReference = DDE43EC7222E583D0055562E /* VLCKitDemo4Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDE43EBF222E583D0055562E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Awesome VLC Study Demo";
+				TargetAttributes = {
+					DDE43EC6222E583D0055562E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = DDE43EC2222E583D0055562E /* Build configuration list for PBXProject "VLCKitDemo4Mac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDE43EBE222E583D0055562E;
+			productRefGroup = DDE43EC8222E583D0055562E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDE43EC6222E583D0055562E /* VLCKitDemo4Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDE43EC5222E583D0055562E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1B9227222F56EB008C1EA8 /* Info.plist in Resources */,
+				DDE43ED1222E583E0055562E /* Assets.xcassets in Resources */,
+				DDE43ED4222E583E0055562E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDE43EC3222E583D0055562E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE43ECF222E583D0055562E /* ViewController.m in Sources */,
+				DDE43ED7222E583E0055562E /* main.m in Sources */,
+				DDE43ECC222E583D0055562E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDE43ED2222E583E0055562E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE43ED3222E583E0055562E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDE43ED9222E583E0055562E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DDE43EDA222E583E0055562E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DDE43EDC222E583E0055562E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VLCKitDemo4Mac/VLCKitDemo4Mac.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VLCKitDemo4Mac",
+				);
+				INFOPLIST_FILE = VLCKitDemo4Mac/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sohu.VLCKitDemo4Mac;
+				PRODUCT_NAME = "$(PROJECT)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		DDE43EDD222E583E0055562E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VLCKitDemo4Mac/VLCKitDemo4Mac.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VLCKitDemo4Mac",
+				);
+				INFOPLIST_FILE = VLCKitDemo4Mac/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sohu.VLCKitDemo4Mac;
+				PRODUCT_NAME = "$(PROJECT)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDE43EC2222E583D0055562E /* Build configuration list for PBXProject "VLCKitDemo4Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE43ED9222E583E0055562E /* Debug */,
+				DDE43EDA222E583E0055562E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE43EDB222E583E0055562E /* Build configuration list for PBXNativeTarget "VLCKitDemo4Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE43EDC222E583E0055562E /* Debug */,
+				DDE43EDD222E583E0055562E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDE43EBF222E583D0055562E /* Project object */;
+}
