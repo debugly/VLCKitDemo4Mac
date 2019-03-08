@@ -42,9 +42,11 @@
     player = [[VLCMediaPlayer alloc] initWithOptions:nil];
     player.drawable = self.view;
     player.delegate = self;
+    
     // Do any additional setup after loading the view.
     
-    NSArray *movies = @[@"http://debugly.cn/repository/test.mp4",
+    NSArray *movies = @[@"http://10.7.36.50:8080/ffmpeg-test/ff-concat-2/test.ffcat",
+                        @"http://debugly.cn/repository/test.mp4",
                         @"http://10.7.36.50:8080/ffmpeg-test/ff-concat-2/1.mp4",
                         @"http://10.7.36.50:8080/ffmpeg-test/ff-concat-2/2.mp4",
                         @"http://10.7.36.50:8080/ffmpeg-test/ff-concat-2/3.mp4"
@@ -54,8 +56,7 @@
         [playlist addMedia:media];
     }
     
-    [player setMedia:[playlist mediaAtIndex:0]];
-    
+    [player setMedia:[playlist mediaAtIndex:1]];
     [player play];
 
 // 倍速
@@ -76,8 +77,6 @@
     
 }
 
-
-
 - (void)mediaPlayerStateChanged:(NSNotification *)aNotification
 {
     if (aNotification.object == player) {
@@ -92,8 +91,6 @@
                 size.height = player.videoSize.height / player.videoSize.width * size.width;
                 rect.size = size;
                 [self.view.window setFrame:rect display:YES animate:YES];
-                
-                [self.view.window setMovableByWindowBackground:YES];
             }
         }
     }

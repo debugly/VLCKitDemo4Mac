@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DD1B9227222F56EB008C1EA8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDE43ED5222E583E0055562E /* Info.plist */; };
 		DD1B9229222F5723008C1EA8 /* VLCKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = DDE43EDE222E58760055562E /* VLCKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DD1B922D22320246008C1EA8 /* MyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1B922C22320246008C1EA8 /* MyWindowController.m */; };
 		DDE43ECC222E583D0055562E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE43ECB222E583D0055562E /* AppDelegate.m */; };
 		DDE43ECF222E583D0055562E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE43ECE222E583D0055562E /* ViewController.m */; };
 		DDE43ED1222E583E0055562E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE43ED0222E583E0055562E /* Assets.xcassets */; };
@@ -33,6 +34,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DD1B922B22320246008C1EA8 /* MyWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWindowController.h; sourceTree = "<group>"; };
+		DD1B922C22320246008C1EA8 /* MyWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWindowController.m; sourceTree = "<group>"; };
 		DDE43EC7222E583D0055562E /* VLCKitDemo4Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VLCKitDemo4Mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE43ECA222E583D0055562E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DDE43ECB222E583D0055562E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 				DDE43ECB222E583D0055562E /* AppDelegate.m */,
 				DDE43ECD222E583D0055562E /* ViewController.h */,
 				DDE43ECE222E583D0055562E /* ViewController.m */,
+				DD1B922B22320246008C1EA8 /* MyWindowController.h */,
+				DD1B922C22320246008C1EA8 /* MyWindowController.m */,
 				DDE43ED0222E583E0055562E /* Assets.xcassets */,
 				DDE43ED2222E583E0055562E /* Main.storyboard */,
 				DDE43ED5222E583E0055562E /* Info.plist */,
@@ -177,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDE43ECF222E583D0055562E /* ViewController.m in Sources */,
+				DD1B922D22320246008C1EA8 /* MyWindowController.m in Sources */,
 				DDE43ED7222E583E0055562E /* main.m in Sources */,
 				DDE43ECC222E583D0055562E /* AppDelegate.m in Sources */,
 			);
